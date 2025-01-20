@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('GIT Clone') {
             steps {
-            git credentialsId: 'Github_username_password', url: 'https://github.com/sandeepkumarmekapothula/maven-web-app.git'
+            git credentialsId: 'Github_username_password', url: 'https://github.com/RTej-007/maven-web-app.git'
             }
         }
 
